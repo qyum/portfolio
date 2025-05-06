@@ -141,12 +141,19 @@ async def portfolio():
                 <a href="https://github.com/Qyum/forgery-detection" target="_blank">GitHub</a>
             </p>
 
-            <h3>Medical AI Chatbot</h3>
-            <p>
-                Healthcare chatbot using LangChain, Pinecone, and OpenAI (92% satisfaction).
-                <a href="https://github.com/Qyum/medical-ai-chatbot" target="_blank">GitHub</a> |
-                <a href="https://www.fiverr.com/users/qyum_ai/manage_gigs?current_filter=active" target="_blank">Fiverr</a>
-            </p>
+
+            <h3>Visual Detection (VD)</h3>
+            <p>Visual detection pipeline using YOLOv8, Streamlit, and FastAPI. Real-time video/image inference with deployment-ready endpoints. 
+            <a href="https://github.com/qyum/VD/tree/dev" target="_blank">GitHub</a></p>
+
+            <h3>Object Detection</h3>
+            <p>Complete object detection system using OpenCV, PyTorch, FastAPI. Supports webcam/video input with real-time predictions. 
+            <a href="https://github.com/qyum/ObjectDetection/tree/dev" target="_blank">GitHub</a></p>
+
+            <h3>Doctor Suggestion Chatbot</h3>
+            <p>Medical chatbot suggesting doctors based on user symptoms and queries. Integrated with LLM, vector search, and user interaction logs.
+            <a href="https://bitbucket.org/techboomai-dev/dr_suggestion_chatbot/src/qyum_dev/chat_bot/" target="_blank">Bitbucket</a></p>
+
 
             <h3>Face & Text-to-Video Generator</h3>
             <p>
