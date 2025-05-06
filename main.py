@@ -154,11 +154,11 @@ async def portfolio():
 
 
             <h3>Visual Detection (VD)</h3>
-            <p>Visual detection pipeline using YOLOv8, Streamlit, and FastAPI. Real-time video/image inference with deployment-ready endpoints. 
+            <p>Model detects objects in an image and display the detected object's class name above the bounding box on the clothing item.Trained the model by using a dataset (e.g.,iMaterialist, Deepfashion etc). 
             <a href="https://github.com/qyum/VD/tree/dev" target="_blank">GitHub</a></p>
 
             <h3>Object Detection</h3>
-            <p>Complete object detection system using OpenCV, PyTorch, FastAPI. Supports webcam/video input with real-time predictions. 
+            <p> A state-of-the-art multi-object project for segmentation, object detection on Nvidia Jetson Nano .This repo show performance difference between yolov8 VS yolov11 model according to FPS 
             <a href="https://github.com/qyum/ObjectDetection/tree/dev" target="_blank">GitHub</a></p>
 
             <h3>Doctor Suggestion Chatbot</h3>
