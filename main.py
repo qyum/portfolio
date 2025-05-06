@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from fastapi.responses import HTMLResponse
 from fastapi import FastAPI, Request, status
 from fastapi.middleware.cors import CORSMiddleware
-
+import os
 
 app = FastAPI()
 # Allow requests from all origins 
@@ -206,3 +206,6 @@ async def portfolio():
     </body>
     </html>
     """
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 8080))  # default for local
+    uvicorn.run("main:app", host="0.0.0.0", port=port)
