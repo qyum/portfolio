@@ -154,6 +154,36 @@ async def portfolio():
                 <a href="https://github.com/Qyum/face-text-to-video" target="_blank">GitHub</a> |
                 <a href="https://www.upwork.com/freelancers/~0173f8e3cad7a922c6" target="_blank">Upwork</a>
             </p>
+
+            <h3>Bangla Deep Speech Recognition</h3>
+            <p>
+                End-to-end Bengali speech recognition using Bi-RNN, LSTM, GRU to achieve high transcription accuracy.
+                <a href="https://github.com/Qyum/Bangla-deep-speech-Recognition" target="_blank">Repository</a>
+            </p>
+
+            <h3>📄 Document Detection and Skew Correction</h3>
+            <p>
+                Image processing-based project to detect documents and correct skew for better OCR.
+                <a href="https://github.com/Qyum/Document-detection-and-Skew-correction-" target="_blank">Repository</a>
+            </p>
+
+            <h3>🎵 Music Generation with Deep Learning</h3>
+            <p>
+                Music generation using deep learning to create new compositions from learned patterns.
+                <a href="https://github.com/Qyum/Generate-Music-tune" target="_blank">Repository</a>
+            </p>
+
+            <h3>🚗 Autonomous Driving Application</h3>
+            <p>
+                Simulated project demonstrating lane following and car detection with computer vision.
+                <a href="https://github.com/Qyum/Autonomous_driving_application" target="_blank">Repository</a>
+            </p>
+
+            <h3>🤖 Autonomous Robot with PID Control</h3>
+            <p>
+                Autonomous robot with PID control for stable and accurate navigation.
+                <a href="https://github.com/Qyum/pid" target="_blank">Repository</a>
+            </p>
         </section>
     </body>
     </html>
