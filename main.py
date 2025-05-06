@@ -1,7 +1,18 @@
 from fastapi import FastAPI
 from fastapi.responses import HTMLResponse
+from fastapi import FastAPI, Request, status
+from fastapi.middleware.cors import CORSMiddleware
+
 
 app = FastAPI()
+# Allow requests from all origins 
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+    expose_headers=["*"])
 
 @app.get("/", response_class=HTMLResponse)
 async def portfolio():
