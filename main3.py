@@ -214,25 +214,27 @@ async def portfolio():
             <div class="content">
                 <h3>Senior ML Engineer (TL/CTO) – Fixels Graphix (Jan 2023 – Present)</h3>
                 <ul>
-                    <li>🚀 Fraud detection with GNN (95% acc)</li>
-                    <li>🎥 Text-to-video with LLM + Diffusion</li>
-                    <li>🩺 LangChain-powered chatbot (92% sat.)</li>
+                    <li>🚀 Developed GNN and gated neural network models for fraud and AML detection (95% accuracy)</li>
+                    <li>🎥 Built backend APIs for face generation and text-to-video (multi-scene) using LLMs and diffusion models</li>
+                    <li>🩺 Created a LangChain-powered medical chatbot (92% positive feedback)</li>
                 </ul>
                 <h3>Senior Software Engineer, ML – REVE Systems</h3>
                 <ul>
-                    <li>🔊 Wav2Vec for Bengali STT (5% WER drop)</li>
-                    <li>📊 XLM-R based sentiment model (89%)</li>
-                    <li>🏨 Hotel recommender (95% accuracy)</li>
+                    <li>🔊 Built Wav2Vec Transformer for Bengali STT (WER reduced by 5%)</li>
+                    <li>📊 Customized inference API using fb-wav2vec2-xlmr-53 (89% test accuracy)</li>
+                    <li>🏨 Developed hotel recommender system using collaborative filtering and DL (95% accuracy)</li>
                 </ul>
                 <h3>ML Engineer – SSL Wireless</h3>
                 <ul>
-                    <li>🔐 FaceNet+KNN for security (99% recall)</li>
-                    <li>🗣️ ASR for Bengali using LSTM, GRU</li>
-                    <li>🛒 Product recommender using SVD</li>
+                    <li>🔐 Created multi-face recognition for security & attendance using FaceNet and KNN (99% recall)</li>
+                    <li>🗣️ Built end-to-end Bengali speech recognition with Bi-RNN, LSTM, GRU (reduced training loss 50%)</li>
+                    <li>🛒Designed a deep product recommender using SVD & collaborative filtering (RMSE < 10%)</li>
+
                 </ul>
                 <h3>Technical Lead – HSTU Robo Destroyer</h3>
                 <ul>
-                    <li>🤖 Arduino bots & RL delivery bots</li>
+                    <li>🤖 Built robots (line follower, soccer bot) using C++, Arduino, sonar/color sensors</li>
+                    <li>🤖 Implemented reinforcement learning for delivery, cleaning, transportation robots</li>
                 </ul>
             </div>
         </section>
@@ -243,9 +245,9 @@ async def portfolio():
                 <p>
                     <strong>Languages:</strong> Python, C++, SQL, MATLAB<br>
                     <strong>Frameworks:</strong> Flask, Django, FastAPI<br>
-                    <strong>AI/ML:</strong> TensorFlow, PyTorch, Scikit-learn, Transformers<br>
+                    <strong>AI/ML:</strong> TensorFlow, PyTorch, Scikit-learn,Bert,Transformer<br>
                     <strong>Tools:</strong> Docker, Git, AWS, GCP, Azure, CUDA<br>
-                    <strong>Concepts:</strong> LLMs, LangChain, NLP, CV, REST APIs<br>
+                    <strong>Concepts:</strong> voice Ai,LLMs, LangChain, NLP, CV, REST APIs<br>
                 </p>
             </div>
         </section>
@@ -254,8 +256,8 @@ async def portfolio():
             <h2>🎓 Education</h2>
             <div class="content">
                 <ul>
-                    <li>🎓 B.Sc. in EEE – HSTU (2017–2020)</li>
-                    <li>📘 Applied Mathematics – NSTU (2015–2016)</li>
+                    <li>🎓 B.Sc. in Electrical and Electronic Engineering – HSTU (2017–2020)</li>
+                    <li>📘 B.Sc. in Applied Mathematics – NSTU (2015–2016)</li>
                 </ul>
             </div>
         </section>
@@ -264,34 +266,34 @@ async def portfolio():
             <h2>📁 Projects</h2>
             <div class="content">
                 <h3>🕵️‍♂️ Forgery Detection System</h3>
-                <p>EfficientNet-based forgery detection (80% acc). <a href="https://github.com/Qyum/forgery-detection">GitHub</a></p>
+                <p>Used EfficientNet with advanced preprocessing and augmentation to detect facial manipulation in images (80% accuracy) <a href="https://github.com/Qyum/forgery-detection">GitHub</a></p>
 
                 <h3>👕 Visual Detection (VD)</h3>
-                <p>Clothing object detection using DeepFashion. <a href="https://github.com/qyum/VD/tree/dev">GitHub</a></p>
+                <p>Model detects objects in an image and display the detected object's class name above the bounding box on the clothing item.Trained the model by using a dataset (e.g.,iMaterialist, Deepfashion etc)<a href="https://github.com/qyum/VD/tree/dev">GitHub</a></p>
 
                 <h3>📦 Object Detection YOLOv8 vs YOLOv11</h3>
-                <p>Multi-object segmentation on Jetson Nano. <a href="https://github.com/qyum/ObjectDetection/tree/dev">GitHub</a></p>
+                <p>A state-of-the-art multi-object project for segmentation, object detection on Nvidia Jetson Nano .This repo show performance difference between yolov8 VS yolov11 model according to FPS <a href="https://github.com/qyum/ObjectDetection/tree/dev">GitHub</a></p>
 
                 <h3>🩺 Doctor Suggestion Chatbot</h3>
-                <p>LLM + vector search chatbot for medical help. <a href="https://bitbucket.org/techboomai-dev/dr_suggestion_chatbot/src/qyum_dev/chat_bot/">Bitbucket</a></p>
+                <p>Medical chatbot suggesting doctors based on user symptoms and queries. Integrated with LLM, vector search, and user interaction logs.<a href="https://bitbucket.org/techboomai-dev/dr_suggestion_chatbot/src/qyum_dev/chat_bot/">Bitbucket</a></p>
 
                 <h3>🎬 Text-to-Video Generator</h3>
-                <p>Prompt-based video gen using GAN + Diffusion. <a href="https://github.com/Qyum/face-text-to-video">GitHub</a></p>
+                <p>Text-prompt video generation using Stable Diffusion and GANs <a href="https://github.com/Qyum/face-text-to-video">GitHub</a></p>
 
                 <h3>🗣️ Bangla Speech Recognition</h3>
-                <p>Bi-RNN + LSTM model for Bangla ASR. <a href="https://github.com/Qyum/Bangla-deep-speech-Recognition">Repo</a></p>
+                <p>End-to-end Bengali speech recognition using Bi-RNN, LSTM, GRU to achieve high transcription accuracy. <a href="https://github.com/Qyum/Bangla-deep-speech-Recognition">Repo</a></p>
 
                 <h3>📄 Skew Correction for OCR</h3>
-                <p>Document detection & alignment. <a href="https://github.com/Qyum/Document-detection-and-Skew-correction-">Repo</a></p>
+                <p>Image processing-based project to detect documents and correct skew for better OCR. <a href="https://github.com/Qyum/Document-detection-and-Skew-correction-">Repo</a></p>
 
                 <h3>🎵 Music Generation</h3>
-                <p>DL model to generate musical sequences. <a href="https://github.com/Qyum/Generate-Music-tune">Repo</a></p>
+                <p> Music generation using deep learning to create new compositions from learned patterns.<a href="https://github.com/Qyum/Generate-Music-tune">Repo</a></p>
 
                 <h3>🚗 Autonomous Driving</h3>
-                <p>Lane-following and car-detection in sim. <a href="https://github.com/Qyum/Autonomous_driving_application">Repo</a></p>
+                <p> Simulated project demonstrating lane following and car detection with computer vision. <a href="https://github.com/Qyum/Autonomous_driving_application">Repo</a></p>
 
                 <h3>🤖 PID-Controlled Robot</h3>
-                <p>Autonomous bot with PID optimization. <a href="https://github.com/Qyum/pid">Repo</a></p>
+                <p>Autonomous robot with PID control for stable and accurate navigation. <a href="https://github.com/Qyum/pid">Repo</a></p>
             </div>
         </section>
     </body>
