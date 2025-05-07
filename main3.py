@@ -278,7 +278,7 @@ async def portfolio():
                 <p>Medical chatbot suggesting doctors based on user symptoms and queries. Integrated with LLM, vector search, and user interaction logs.<a href="https://bitbucket.org/techboomai-dev/dr_suggestion_chatbot/src/qyum_dev/chat_bot/">Bitbucket</a></p>
 
                 <h3>🎬 Text-to-Video Generator</h3>
-                <p>Text-prompt video generation using Stable Diffusion and GANs <a href="https://github.com/Qyum/face-text-to-video">GitHub</a></p>
+                <p>Text-prompt video generation using Stable Diffusion and LLM <a href="https://github.com/Qyum/face-text-to-video">GitHub</a></p>
 
                 <h3>🗣️ Bangla Speech Recognition</h3>
                 <p>End-to-end Bengali speech recognition using Bi-RNN, LSTM, GRU to achieve high transcription accuracy. <a href="https://github.com/Qyum/Bangla-deep-speech-Recognition">Repo</a></p>
